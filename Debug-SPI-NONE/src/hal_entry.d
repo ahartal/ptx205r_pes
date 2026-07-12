@@ -68,7 +68,9 @@ src/hal_entry.o: ../src/hal_entry.c \
  C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra/fsp/inc/api/r_transfer_api.h \
  C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra_cfg/fsp_cfg/r_dtc_cfg.h \
  C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra/fsp/inc/instances/r_sci_spi.h \
- C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra/fsp/inc/api/r_spi_api.h
+ C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra/fsp/inc/api/r_spi_api.h \
+ C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/src/SEGGER_RTT/SEGGER_RTT.h \
+ C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/src/SEGGER_RTT/SEGGER_RTT_Conf.h
 C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra_gen/hal_data.h:
 C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra/fsp/inc/api/bsp_api.h:
 C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra/fsp/inc/api/fsp_common_api.h:
@@ -139,3 +141,5 @@ C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PR
 C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra_cfg/fsp_cfg/r_dtc_cfg.h:
 C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra/fsp/inc/instances/r_sci_spi.h:
 C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/ra/fsp/inc/api/r_spi_api.h:
+C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/src/SEGGER_RTT/SEGGER_RTT.h:
+C:/Users/a5133358/Downloads/secure_transfer_20260707075512/ptx_RUL_SDK_v1.2.1/PROJECTS/PTX2xxR/NFC_FORUM_NDEF/MCU/CUSTOM/src/SEGGER_RTT/SEGGER_RTT_Conf.h:
