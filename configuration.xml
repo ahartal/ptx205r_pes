@@ -236,7 +236,7 @@
       <property id="module.driver.spi.txi_ipl" value="board.icu.common.irq.priority2"/>
       <property id="module.driver.spi.tei_ipl" value="board.icu.common.irq.priority2"/>
       <property id="module.driver.spi.eri_ipl" value="board.icu.common.irq.priority2"/>
-      <property id="module.driver.spi.bitrate" value="1000000"/>
+      <property id="module.driver.spi.bitrate" value="500000"/>
       <property id="module.driver.spi.bitrate_modulation" value="module.driver.spi.bitrate_modulation.disabled"/>
     </module>
     <module id="module.driver.uart_on_sci_uart.1534045359">
@@ -245,7 +245,7 @@
       <property id="module.driver.uart.data_bits" value="module.driver.uart.data_bits.data_bits_8"/>
       <property id="module.driver.uart.parity" value="module.driver.uart.parity.parity_off"/>
       <property id="module.driver.uart.stop_bits" value="module.driver.uart.stop_bits.stop_bits_1"/>
-      <property id="module.driver.uart.baud" value="256000"/>
+      <property id="module.driver.uart.baud" value="115200"/>
       <property id="module.driver.uart.baudrate_modulation" value="module.driver.uart.baudrate_modulation.disabled"/>
       <property id="module.driver.uart.baudrate_max_err" value="5"/>
       <property id="module.driver.uart.flow_control" value="module.driver.uart.flow_control.rts"/>
@@ -483,6 +483,8 @@
       <configSetting altId="jtag_fslash_swd.mode.swd.free" configurationId="jtag_fslash_swd.mode"/>
       <configSetting altId="jtag_fslash_swd.swclk.p300" configurationId="jtag_fslash_swd.swclk"/>
       <configSetting altId="jtag_fslash_swd.swdio.p108" configurationId="jtag_fslash_swd.swdio"/>
+      <configSetting altId="p005.output.high" configurationId="p005"/>
+      <configSetting altId="p005.gpio_mode.gpio_mode_out.high" configurationId="p005.gpio_mode"/>
       <configSetting altId="p108.jtag_fslash_swd.swdio" configurationId="p108"/>
       <configSetting altId="p108.gpio_mode.gpio_mode_peripheral" configurationId="p108.gpio_mode"/>
       <configSetting altId="p109.sci9.txd9" configurationId="p109"/>
@@ -493,12 +495,11 @@
       <configSetting altId="p111.gpio_mode.gpio_mode_peripheral" configurationId="p111.gpio_mode"/>
       <configSetting altId="p300.jtag_fslash_swd.swclk" configurationId="p300"/>
       <configSetting altId="p300.gpio_mode.gpio_mode_peripheral" configurationId="p300.gpio_mode"/>
-      <configSetting altId="p301.sci9.cts_rts9" configurationId="p301"/>
-      <configSetting altId="p301.gpio_mode.gpio_mode_peripheral" configurationId="p301.gpio_mode"/>
+      <configSetting altId="p301.output.high" configurationId="p301"/>
+      <configSetting altId="p301.gpio_mode.gpio_mode_out.high" configurationId="p301.gpio_mode"/>
       <configSetting altId="p402.irq.irq4_dash_ds" configurationId="p402"/>
       <configSetting altId="p402.gpio_irq.gpio_irq_enabled" configurationId="p402.gpio_irq"/>
       <configSetting altId="p402.gpio_mode.gpio_mode_irq" configurationId="p402.gpio_mode"/>
-      <configSetting altId="sci9.cts_rts9.p301" configurationId="sci9.cts_rts9"/>
       <configSetting altId="sci9.mode.simplespi.free" configurationId="sci9.mode"/>
       <configSetting altId="sci9.rxd9.p110" configurationId="sci9.rxd9"/>
       <configSetting altId="sci9.sck9.p111" configurationId="sci9.sck9"/>

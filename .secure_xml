@@ -59,15 +59,17 @@
       <configSetting altId="irq.irq4_dash_ds.p402" configurationId="irq.irq4_dash_ds" isUsedByDriver="true" peripheral="IRQ"/>
       <configSetting altId="jtag_fslash_swd.swclk.p300" configurationId="jtag_fslash_swd.swclk" peripheral="JTAG/SWD"/>
       <configSetting altId="jtag_fslash_swd.swdio.p108" configurationId="jtag_fslash_swd.swdio" peripheral="JTAG/SWD"/>
+      <configSetting altId="p005.output.high" configurationId="p005"/>
+      <configSetting altId="p005.gpio_mode.gpio_mode_out.high" configurationId="p005.gpio_mode"/>
       <configSetting altId="p108.gpio_mode.gpio_mode_peripheral" configurationId="p108.gpio_mode"/>
       <configSetting altId="p109.gpio_mode.gpio_mode_peripheral" configurationId="p109.gpio_mode"/>
       <configSetting altId="p110.gpio_mode.gpio_mode_peripheral" configurationId="p110.gpio_mode"/>
       <configSetting altId="p111.gpio_mode.gpio_mode_peripheral" configurationId="p111.gpio_mode"/>
       <configSetting altId="p300.gpio_mode.gpio_mode_peripheral" configurationId="p300.gpio_mode"/>
-      <configSetting altId="p301.gpio_mode.gpio_mode_peripheral" configurationId="p301.gpio_mode"/>
+      <configSetting altId="p301.output.high" configurationId="p301"/>
+      <configSetting altId="p301.gpio_mode.gpio_mode_out.high" configurationId="p301.gpio_mode"/>
       <configSetting altId="p402.gpio_irq.gpio_irq_enabled" configurationId="p402.gpio_irq"/>
       <configSetting altId="p402.gpio_mode.gpio_mode_irq" configurationId="p402.gpio_mode"/>
-      <configSetting altId="sci9.cts_rts9.p301" configurationId="sci9.cts_rts9" isUsedByDriver="true" peripheral="SCI9"/>
       <configSetting altId="sci9.rxd9.p110" configurationId="sci9.rxd9" isUsedByDriver="true" peripheral="SCI9"/>
       <configSetting altId="sci9.sck9.p111" configurationId="sci9.sck9" isUsedByDriver="true" peripheral="SCI9"/>
       <configSetting altId="sci9.txd9.p109" configurationId="sci9.txd9" isUsedByDriver="true" peripheral="SCI9"/>

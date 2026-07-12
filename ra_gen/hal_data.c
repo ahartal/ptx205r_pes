@@ -258,9 +258,9 @@ const timer_instance_t ptx_tmr0 = { .p_ctrl = &ptx_tmr0_ctrl, .p_cfg =
 sci_uart_instance_ctrl_t ptx_uart_dbg_ctrl;
 
 baud_setting_t ptx_uart_dbg_baud_setting = {
-/* Baud rate calculated with 1.725% error. */.semr_baudrate_bits_b.abcse = 0,
+/* Baud rate calculated with 0.469% error. */.semr_baudrate_bits_b.abcse = 0,
 		.semr_baudrate_bits_b.abcs = 0, .semr_baudrate_bits_b.bgdm = 1,
-		.cks = 0, .brr = 23, .mddr = (uint8_t) 256, .semr_baudrate_bits_b.brme =
+		.cks = 0, .brr = 53, .mddr = (uint8_t) 256, .semr_baudrate_bits_b.brme =
 				false };
 
 /** UART extended configuration for UARTonSCI HAL driver */
@@ -499,7 +499,7 @@ sci_spi_instance_ctrl_t ptx_pmod2_spi_ctrl;
 
 /** SPI extended configuration */
 const sci_spi_extended_cfg_t ptx_pmod2_spi_cfg_extend = { .clk_div = {
-/* Actual calculated bitrate: 1000000. */.cks = 0, .brr = 24, .mddr = 0, } };
+/* Actual calculated bitrate: 500000. */.cks = 0, .brr = 49, .mddr = 0, } };
 
 const spi_cfg_t ptx_pmod2_spi_cfg = { .channel = 9, .operating_mode =
 		SPI_MODE_MASTER, .clk_phase = SPI_CLK_PHASE_EDGE_ODD, .clk_polarity =
